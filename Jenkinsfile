@@ -1,32 +1,18 @@
 
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('build') {
-            steps {
-                echo 'building'
-            }
-        }
-        stage('deploy') {
-            steps {
-                echo 'deploying'
-            }
-        }
-        stage('test') {
-            steps {
-                echo 'testing'
-            }
-        }
-        stage('release') {
-            steps {
-                echo 'releasing'
-            }
-        }
+stages {
+  stage('Build') {
+    steps {
+      sh 'echo "This is my first step"'
     }
+  }
+  stage('Test') {
+    steps
+      sh 'echo "This is my Test step"'
+    }
+  }
+  stage('Deploy') {
+    steps {
+      sh 'echo "This is my Deploy step"'
+    }
+  }
 }
