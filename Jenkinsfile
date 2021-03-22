@@ -13,8 +13,4 @@ pipeline {
                 echo 'Hii abhay'
             }
         }
-        stage('Hii') {
-            steps {
-                echo 'Hii abhay'
-    }
-}
+
