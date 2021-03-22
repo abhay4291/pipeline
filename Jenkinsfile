@@ -8,4 +8,6 @@ pipeline {
                 echo 'Hello World'
             }
         }
+    }
+}
     
