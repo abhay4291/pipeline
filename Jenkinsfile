@@ -6,5 +6,9 @@ pipeline{
             echo "hello handsome"
             }
         }
+        
+        stage("build"){
+            steps{
+            echo "hii how are u"
     }
 }
