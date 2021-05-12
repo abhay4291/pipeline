@@ -7,8 +7,11 @@ pipeline{
             }
         }
         
+    }
+        
         stage("build"){
             steps{
             echo "hii how are u"
     }
 }
+    }
