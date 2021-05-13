@@ -11,7 +11,7 @@ pipeline{
         
         stage("build"){
             steps{
-            echo "hii how are u"
+            echo "hii how are u ok good bye!"
     }
 }
     }
