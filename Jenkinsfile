@@ -7,6 +7,12 @@ pipeline{
             }
         }
         
+        stage("trigger"){
+            steps{
+            SCM('* * * * *')
+            }
+        }
+        
     
         
         stage("build"){
